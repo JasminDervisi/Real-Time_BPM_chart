@@ -1,0 +1,46 @@
+{
+  "name": "examenm2mserver",
+  "version": "1.0.0",
+  "description": "A server for the exam ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development && npm run start",
+    "build": "webpack --mode production",
+    "start": "node src/server/server.js"
+  },
+  "author": "Jasmin Dervisi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "supertest": "^3.1.0",
+    "jest": "^23.4.2",
+    "jsdom": "^11.12.0",
+    "react-addons-test-utils": "^15.6.2",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "http": "0.0.0",
+    "mqtt": "^2.18.8",
+    "plotly": "^1.0.6",
+    "react": "^16.4.2",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.4.2",
+    "react-plotly": "^1.0.0",
+    "recharts": "^1.3.5",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  }
+}
